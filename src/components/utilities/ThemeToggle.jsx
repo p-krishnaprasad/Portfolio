@@ -7,7 +7,7 @@ export default function ThemeToggle() {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <div className="absolute top-8 right-12 z-50" onClick={toggleTheme}>
+    <div className="absolute top-6 right-12 z-50" onClick={toggleTheme}>
       {theme === "dark" ? (
         <MdOutlineLightMode className="w-8 h-8" />
       ) : (
